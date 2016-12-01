@@ -6,11 +6,11 @@ runs Riches war with WebInspect Agent
 There are files needed (license agreement with HPE Security Fortify required) and small amounts of setup required in order to use the Dockerfile for this image.
 
 VM setup where running docker from:
-<image>/Dockerfile (attached)
-<image>/files
-<image>/wi_agent_logs or <path_to_wia_logs>
+Dockerfile
+files (directory)
+wi_agent_logs (directory)
 
-Files needed in <image>/files:
+in files directory:\n
 HPE_Security_Fortify_WebInspect_Runtime_Agent_Java_16.8.tar.gz (16.20)
 riches.war
 
