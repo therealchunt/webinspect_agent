@@ -15,10 +15,10 @@ HPE_Security_Fortify_WebInspect_Runtime_Agent_Java_16.8.tar.gz (16.20)
 riches.war
 
 Build Image
-docker build --tag <image>
+docker build --tag [image]
 
 Run Image
-docker run -it -p <external_port>:8080 -v <path_to_wia_logs_local>:/usr/local/tomcat/WI_Agent/log <image>
+docker run -it -p [external_port]:8080 -v [path_to_wia_logs_local]:/usr/local/tomcat/WI_Agent/log [image]
 
 Known Issues
-Need to remove <path_to_wia_logs> directory once image is shutdown (subsequent starts of the same image cant write to this directory on restart)
+Need to remove [path_to_wia_logs] directory once image is shutdown (subsequent starts of the same image cant write to this directory on restart)
