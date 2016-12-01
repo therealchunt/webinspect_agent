@@ -1,4 +1,6 @@
 # riches
-riches web application with WebInspect Agent
+uses tomcat:7.0.73-jre8-alpine docker image as the base
 
-There is some configuration required in order to use the Dockerfile for this project.
+runs Riches war with WebInspect Agent
+
+There are files needed (license agreement with HPE Security Fortify required) and small amounts of setup required in order to use the Dockerfile for this image.
