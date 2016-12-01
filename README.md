@@ -8,11 +8,11 @@ There are files needed (license agreement with HPE Security Fortify required) an
 VM setup where running docker from:
 - Dockerfile
 - files (directory)
+  - HPE_Security_Fortify_WebInspect_Runtime_Agent_Java_16.8.tar.gz (16.20)
+  - riches.war
 - wi_agent_logs (directory)
 
-files directory:
-- HPE_Security_Fortify_WebInspect_Runtime_Agent_Java_16.8.tar.gz (16.20)
-- riches.war
+
 
 Build Image
 ```
