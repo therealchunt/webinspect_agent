@@ -5,8 +5,7 @@ runs Riches war with WebInspect Agent
 
 There are files needed (license agreement with HPE Security Fortify required) and small amounts of setup required in order to use the Dockerfile for this image.
 
-VM setup where running docker from
-
+VM setup where running docker from <p>
 Dockerfile
 files (directory)
 wi_agent_logs (directory)
