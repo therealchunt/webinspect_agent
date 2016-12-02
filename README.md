@@ -25,4 +25,4 @@ docker run -it -p [external_port]:8080 -v [path_to_wi_agent_logs]:/usr/local/tom
 ```
 
 Known Issues:
-- Need to remove [wi_agent_logs] directory once image is shutdown (subsequent starts of the same image cant write to this directory on restart)
+- Need to remove contents of [wi_agent_logs] directory once image is shutdown (subsequent starts of the same image cant write to this directory on restart)
