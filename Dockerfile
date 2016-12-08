@@ -1,7 +1,7 @@
 FROM tomcat:7.0.73-jre8-alpine
 MAINTAINER "chunt"
 
-#args used during building of this container
+#args used during building of this image
 ARG MY_FILES_DIR=files
 ARG TMP_DIR=/root/mytemp
 ARG WI_AGENT="HPE_Security_Fortify_WebInspect_Runtime_Agent_Java_16.8"
