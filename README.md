@@ -1,4 +1,4 @@
-# riches
+# WebInspect Agent deployed with app
 Add WebInspect Agent to your deployed app
 
 Basic setup: deploy container that holds the war's (tomcat or whatever), add the agent and extract it, then modify the startup just as you would from the agent install guide. This was setup so that you put the needed files in a files directory and adding an additional logs directory for the event.gz output from the Agent (basically offloading it from the image to the host so that when you shutdown, you will have them for upload to ssc).
